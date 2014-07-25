@@ -1,0 +1,33 @@
+{
+  "name": "ng-abortable-requests",
+  "version": "0.0.1",
+  "description": "Abortable AJAX requests in AngularJS Applications",
+  "main": "src/request-factory.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start --browsers Firefox --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sathify/ng-abortable-requests.git"
+  },
+  "keywords": [
+    "AngularJS",
+    "angular",
+    "AJAX",
+    "$resource",
+    "$http",
+    "abort"
+  ],
+  "devDependencies": {
+    "karma": "*",
+    "karma-jasmine": "*",
+    "karma-chrome-launcher": "*",
+    "karma-firefox-launcher": "*"
+  },
+  "author": "sathify <satheesh7@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sathify/ng-abortable-requests/issues"
+  },
+  "homepage": "https://github.com/sathify/ng-abortable-requests"
+}
