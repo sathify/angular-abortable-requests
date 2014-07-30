@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('ng-abortable-requests', [])
+angular.module('ng-abortable-requests')
   .factory('Util', function() {
 
   return {
@@ -8,7 +8,7 @@ angular.module('ng-abortable-requests', [])
      * @returns interpolation of the redirect path with the parameters
      * Todo: submit angular patch
      * https://github.com/angular/angular.js/blob/
-     * master/src/ngRoute/route.js#L583
+     * master/src/ngRoute/route.js#L574
      */
     interpolate: function (string, params) {
       var result = [],
