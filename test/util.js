@@ -3,7 +3,7 @@
 describe('Util', function () {
   var Util, $rootScope;
 
-  beforeEach(module('ng-abortable-requests'));
+  beforeEach(module('angular-abortable-requests'));
 
   beforeEach(inject(function(_$rootScope_, _Util_) {
     Util = _Util_;

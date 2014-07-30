@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('ng-abortable-requests')
+angular.module('angular-abortable-requests')
   .factory('Util', function() {
 
   return {
