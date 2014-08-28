@@ -15,3 +15,7 @@ Large web applications require lots of information to operate. Whether that’s 
 
 
 More information about the implementation is in this [blog post](http://www.sathify.com/cancelling-ajax-requests-in-angularjs-applications/). 
+
+
+####Install using bower
+<code>bower install angular-abortable-requests</code>
