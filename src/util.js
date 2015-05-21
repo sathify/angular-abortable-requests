@@ -53,7 +53,10 @@ angular.module('angular-abortable-requests')
      */
     removeFromArray: function(arr, items) {
       var removedItems = [];
-      array.getArray(items).forEach(function(item) {
+      if (!angular.isArray(items)) {
+        items = [items];
+      }
+      angular.forEach(items, function(item) {
         var index = arr.indexOf(item);
         if (index !== -1) {
           arr.splice(index, 1);
